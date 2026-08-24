@@ -617,14 +617,14 @@ function playSong(){
 }
 
 
-/* Stop at exactly 40 seconds */
+/* Stop at exactly 50 seconds */
 
 music.addEventListener(
     "timeupdate",
     function(){
 
         if(
-            music.currentTime >= 40
+            music.currentTime >= 50
         ){
 
             music.pause();
